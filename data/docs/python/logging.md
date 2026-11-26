@@ -1,0 +1,3 @@
+# logging: registros de aplicación
+
+El módulo logging registra eventos de ejecución con niveles DEBUG, INFO, WARNING, ERROR y CRITICAL. logging.getLogger(__name__) crea un logger con el nombre del módulo. logger.info("Procesados %s registros", count) usa interpolación diferida. logging.basicConfig(level=logging.INFO) establece una configuración inicial para aplicaciones pequeñas. Un Handler determina el destino de los registros, como consola o archivo, y un Formatter controla su representación. En bibliotecas se debe crear un logger sin configurar globalmente basicConfig. Los niveles permiten filtrar mensajes y los handlers separan destinos. logger.exception dentro de un bloque except incluye el traceback del error.

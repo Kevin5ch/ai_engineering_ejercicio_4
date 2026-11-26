@@ -1,0 +1,10 @@
+langchain-classic>=1,<2
+langchain-community>=0.4,<1
+langchain-core>=1,<2
+langchain-openai>=1,<2
+langchain-text-splitters>=1,<2
+pinecone>=7,<9
+rank-bm25>=0.2,<1
+pypdf>=5,<7
+python-dotenv>=1,<2
+tiktoken>=0.9,<1

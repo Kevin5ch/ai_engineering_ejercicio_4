@@ -1,0 +1,7 @@
+[
+  {"pregunta": "¿Cómo programo corutinas concurrentes con asyncio.create_task y TaskGroup?", "documento_id_esperado": "asyncio"},
+  {"pregunta": "¿Cómo evito compartir una lista mutable entre instancias de una dataclass?", "documento_id_esperado": "dataclasses"},
+  {"pregunta": "¿Cómo busco archivos recursivamente con Path.rglob?", "documento_id_esperado": "pathlib"},
+  {"pregunta": "¿Cómo evito inyección SQL con parámetros ? en sqlite3?", "documento_id_esperado": "sqlite3"},
+  {"pregunta": "¿Cómo registro el traceback de una excepción con logger.exception?", "documento_id_esperado": "logging"}
+]

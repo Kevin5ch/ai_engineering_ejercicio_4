@@ -1,0 +1,3 @@
+# sqlite3: consultas SQL y transacciones
+
+sqlite3 conecta Python con una base de datos SQLite integrada. sqlite3.connect("datos.db") abre o crea una base local. El método execute ejecuta SQL y fetchall recupera filas. Para pasar valores se usan marcadores ? y parámetros separados, por ejemplo execute("SELECT * FROM users WHERE id = ?", (user_id,)); esto evita inyección SQL. conn.commit() confirma una transacción y conn.rollback() la revierte. Un bloque with conn: confirma al terminar sin errores y revierte si ocurre una excepción. sqlite3.Row permite acceder a columnas por nombre. SQLite es práctico para aplicaciones locales y prototipos que no requieren un servidor de base de datos independiente.

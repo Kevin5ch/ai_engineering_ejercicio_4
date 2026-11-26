@@ -1,0 +1,3 @@
+# contextlib: administradores de contexto
+
+Un administrador de contexto controla la adquisición y liberación de recursos alrededor de un bloque with. Un archivo abierto con with open(...) as file se cierra incluso si ocurre una excepción. El decorador contextlib.contextmanager convierte una función generadora con yield en un administrador de contexto. El código anterior a yield prepara el recurso y el código posterior lo libera. contextlib.ExitStack combina dinámicamente múltiples contextos y registra limpiezas. contextlib.suppress(FileNotFoundError) ignora una excepción concreta cuando es una condición esperada. Los contextos son apropiados para archivos, conexiones, bloqueos y recursos temporales.

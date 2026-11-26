@@ -1,0 +1,3 @@
+# collections: estructuras especializadas
+
+collections.Counter cuenta elementos de un iterable y ofrece most_common(n) para obtener los más frecuentes. defaultdict(factory) crea automáticamente un valor inicial cuando se accede a una clave ausente; defaultdict(list) sirve para agrupar valores. deque permite agregar o quitar elementos eficientemente por ambos extremos mediante append, appendleft, pop y popleft. namedtuple crea tuplas con campos nombrados. ChainMap ofrece una vista de varios diccionarios sin copiarlos. Estas estructuras complementan list, tuple y dict cuando se necesitan operaciones de conteo, colas o agrupación.

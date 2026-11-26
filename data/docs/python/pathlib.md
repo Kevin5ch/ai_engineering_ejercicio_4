@@ -1,0 +1,3 @@
+# pathlib: rutas de archivos
+
+pathlib.Path representa rutas de forma orientada a objetos. El operador / compone segmentos de una ruta sin concatenar separadores manualmente. Path.read_text(encoding="utf-8") lee texto y Path.write_text(...) lo escribe. Path.glob("*.py") busca archivos en un directorio, mientras Path.rglob("*.py") busca recursivamente. Path.exists() comprueba existencia, Path.is_file() distingue archivos y Path.mkdir(parents=True, exist_ok=True) crea directorios. Path.resolve() produce una ruta absoluta normalizada. Path.relative_to(base) obtiene una ruta relativa cuando la ruta está dentro de base. La propiedad suffix devuelve la extensión y stem devuelve el nombre sin extensión.

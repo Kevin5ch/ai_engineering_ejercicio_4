@@ -1,0 +1,3 @@
+# typing: anotaciones de tipos
+
+Las anotaciones de tipo describen entradas y salidas esperadas de funciones de Python. list[str] representa una lista de cadenas y dict[str, int] un diccionario de cadenas a enteros. str | None expresa un valor opcional. TypedDict define la forma esperada de un diccionario, y Protocol expresa compatibilidad estructural por métodos y atributos. TypeVar permite escribir funciones genéricas que preservan relaciones entre tipos. Las anotaciones no imponen validación en tiempo de ejecución por sí solas; herramientas estáticas como mypy o pyright ayudan a detectar incompatibilidades. En APIs públicas, los tipos mejoran autocompletado y documentación.

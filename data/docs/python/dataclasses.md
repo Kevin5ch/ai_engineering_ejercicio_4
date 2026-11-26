@@ -1,0 +1,3 @@
+# dataclasses: modelos de datos
+
+El decorador @dataclass genera métodos como __init__, __repr__ y __eq__ a partir de campos anotados. Es útil para representar registros con poco código repetitivo. field(default_factory=list) crea una lista nueva por instancia y evita compartir un valor mutable entre objetos. frozen=True impide asignar atributos después de construir la instancia. order=True añade métodos de comparación de orden. __post_init__ permite validar o derivar valores después de la inicialización generada. asdict convierte recursivamente una instancia en un diccionario. Los campos con init=False no aparecen como argumentos del constructor. Para un estado mutable sencillo, se recomienda anotar tipos y usar default_factory con listas o diccionarios.
